@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "byndyusoft"
+version = "0.1.0"
+description = ""
+authors = ["ODudinova <pogorelayaoksana@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+selenium = "^4.13.0"
+pytest = "^7.4.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+addopts = [
+    "--import-mode=importlib",
+]
